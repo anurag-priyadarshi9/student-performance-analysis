@@ -1,0 +1,62 @@
+STUDENT PERFORMANCE ANALYSIS USING PYTHON AND EXCEL
+
+1. INTRODUCTION
+This project presents a basic analysis of student academic performance using Python and Microsoft Excel.
+The purpose is to organize student data, calculate performance indicators, identify top and low performers,
+and represent the results using charts.
+
+2. OBJECTIVES
+• To store and organize student performance data.
+• To calculate total marks and percentage.
+• To identify pass and fail students.
+• To find average, highest and lowest performance.
+• To analyze attendance and its relationship with percentage.
+• To create graphical representations of the data.
+
+3. TOOLS AND TECHNOLOGIES
+• Python
+• Pandas
+• NumPy
+• Matplotlib
+• Microsoft Excel
+
+4. DATASET
+The dataset contains 30 student records. Each record contains Student ID, Name, Gender,
+Attendance, Assignment Marks, Midterm Marks and Final Exam Marks.
+
+5. METHODOLOGY
+Step 1: Prepare the student dataset in Excel/CSV format.
+Step 2: Load the dataset into Python using Pandas.
+Step 3: Calculate Total Marks = Assignment + Midterm + Final Exam.
+Step 4: Calculate Percentage = Total Marks / 150 × 100.
+Step 5: Classify students as Pass when percentage is 40% or above; otherwise Fail.
+Step 6: Analyze averages, highest/lowest scores and attendance.
+Step 7: Visualize results using bar chart, pie chart and scatter plot.
+
+6. RESULTS
+• Number of students: 30
+• Average attendance: 86.17%
+• Average percentage: 82.27%
+• Highest percentage: 102.00%
+• Lowest percentage: 64.00%
+• Pass students: 30
+• Fail students: 0
+• Top performer: Anurag
+
+7. CONCLUSION
+The project demonstrates how basic Python and Excel skills can be used for practical data analysis.
+The student dataset was processed to calculate performance measures and generate useful visualizations.
+The analysis can help teachers identify high-performing students and students who may need additional support.
+
+8. FUTURE SCOPE
+The project can later be extended by adding more students, subjects, attendance trends, interactive dashboards,
+and advanced statistical or machine-learning techniques.
+
+9. FILES INCLUDED
+• student_performance_dataset.csv
+• student_performance_dataset.xlsx
+• student_performance_analysis.xlsx
+• student_performance_analysis.py
+• percentage_comparison.png
+• result_distribution.png
+• attendance_vs_percentage.png
